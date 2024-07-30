@@ -1,5 +1,5 @@
-import Stem from '../components/Stem';
 import Animation from '../components/Animation';
+import Stem from '../components/Stem';
 
 function Home() {
 	return (
@@ -290,14 +290,14 @@ function Home() {
 				>
 					<div className="flex flex-col text-center w-full mb-20">
 						<h3 className="text-xs blue tracking-widest font-medium title-font mb-1">
-							STEMLAB INOVATIVES
+							STEMLAB INNOVATORS LAB
 						</h3>
 						<h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
 							OUR PROGRAMS
 						</h1>
 					</div>
 					<section className="px-2 md:px-5 flex-center flex-col md:flex-row gap-5">
-						<div className="w-340px h-450px min-h-450px lg:h-500px lg:w-500px rounded-lg flex-center shadow-custom">
+						<div className="mx-6 md:w-340px h-450px min-h-450px lg:h-500px lg:w-500px rounded-lg flex-center shadow-custom">
 							<div className="relative w-100% h-100%">
 								<img
 									src="/images/meeting.jpeg"
@@ -305,7 +305,7 @@ function Home() {
 								/>
 							</div>
 						</div>
-						<div className="w-340px h-450px min-h-450px lg:h-500px lg:w-500px shadow-custom flex-center bg-white">
+						<div className="mx-6 md:w-340px h-450px min-h-450px lg:h-500px lg:w-500px shadow-custom flex-center bg-white">
 							<div className="p-10">
 								<h2 className="text-gray-900 text-lg title-font font-medium mb-3">
 									Finance Workshops
@@ -333,7 +333,7 @@ function Home() {
 						</div>
 					</section>
 					<section className="px-2 md:px-5 flex-center flex-col md:flex-row-reverse gap-5">
-						<div className="w-340px h-450px min-h-450px lg:h-500px lg:w-500px rounded-lg flex-center shadow-custom">
+						<div className="mx-6 md:w-340px h-450px min-h-450px lg:h-500px lg:w-500px rounded-lg flex-center shadow-custom">
 							<div className="relative w-100% h-100%">
 								<img
 									src="images/pitch.jpeg"
@@ -341,7 +341,7 @@ function Home() {
 								/>
 							</div>
 						</div>
-						<div className="w-340px h-450px min-h-450px lg:h-500px lg:w-500px shadow-custom flex-center bg-white">
+						<div className="mx-6 md:w-340px h-450px min-h-450px lg:h-500px lg:w-500px shadow-custom flex-center bg-white">
 							<div className="p-10">
 								<h2 className="text-gray-900 text-lg title-font font-medium mb-3">
 									Startup Incubation
@@ -368,7 +368,7 @@ function Home() {
 						</div>
 					</section>
 					<section className="px-2 md:px-5 flex-center flex-col md:flex-row gap-5">
-						<div className="w-340px h-450px min-h-450px lg:h-500px lg:w-500px rounded-lg flex-center shadow-custom">
+						<div className="mx-6 md:w-340px h-450px min-h-450px lg:h-500px lg:w-500px rounded-lg flex-center shadow-custom">
 							<div className="relative w-100% h-100%">
 								<img
 									src="images/womennn.jpeg"
@@ -376,7 +376,7 @@ function Home() {
 								/>
 							</div>
 						</div>
-						<div className="w-340px h-450px min-h-450px lg:h-500px lg:w-500px shadow-custom flex-center bg-white">
+						<div className="mx-6 md:w-340px h-450px min-h-450px lg:h-500px lg:w-500px shadow-custom flex-center bg-white">
 							<div className="p-10">
 								<h2 className="text-gray-900 text-lg title-font font-medium mb-3">
 									Community-Based Business Development Training
@@ -404,12 +404,12 @@ function Home() {
 						</div>
 					</section>
 					<section className="px-2 md:px-5 flex-center flex-col md:flex-row-reverse gap-5">
-						<div className="w-340px h-450px min-h-450px lg:h-500px lg:w-500px rounded-lg flex-center shadow-custom">
+						<div className="mx-6 md:w-340px h-450px min-h-450px lg:h-500px lg:w-500px rounded-lg flex-center shadow-custom">
 							<div className="relative w-100% h-100%">
 								<span className="internship"></span>
 							</div>
 						</div>
-						<div className="w-340px h-450px min-h-450px lg:h-500px lg:w-500px shadow-custom flex-center bg-white">
+						<div className="mx-6 md:w-340px h-450px min-h-450px lg:h-500px lg:w-500px shadow-custom flex-center bg-white">
 							<div className="p-10">
 								<h2 className="text-gray-900 text-lg title-font font-medium mb-3">
 									S.I.W.E.S / Internship
@@ -438,12 +438,12 @@ function Home() {
 						</div>
 					</section>
 					<section className="px-2 md:px-5 flex-center  flex-col md:flex-row gap-5">
-						<div className="w-340px h-450px min-h-450px lg:h-500px lg:w-500px rounded-lg flex-center shadow-custom">
+						<div className="mx-6 md:w-340px h-450px min-h-450px lg:h-500px lg:w-500px rounded-lg flex-center shadow-custom">
 							<div className="relative w-100% h-100%">
 								<span className="bootcamp"></span>
 							</div>
 						</div>
-						<div className="w-340px h-450px min-h-450px lg:h-500px lg:w-500px shadow-custom flex-center bg-white">
+						<div className="mx-6 md:w-340px h-450px min-h-450px lg:h-500px lg:w-500px shadow-custom flex-center bg-white">
 							<div className="p-10">
 								<h2 className="text-gray-900 text-lg title-font font-medium mb-3">
 									Kids Holiday Bootcamps
@@ -476,7 +476,7 @@ function Home() {
 				<Animation />
 			</section>
 			<section className="text-gray-700 body-font border-t border-gray-200">
-				<div className="container px-5 py-24 mx-auto">
+				<div className="w-full md:container px-5 py-24 mx-auto">
 					<div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
